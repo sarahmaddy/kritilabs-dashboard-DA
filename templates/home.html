@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title> KRITILABS - DASHBOARD </title>
+
+    <style>
+      body {
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+      div,a,.row {
+    width: 100%;
+    
+}
+      .btn btn-primary btn-lg active{
+        width: 100%;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head> 
+  <body style="border: 12px solid #3cdfff;margin:20px">
+{% include 'header.html'%}
+
+        <div class="row text-center" style="margin-top:150px">
+          <div class="col-sm-4 text-center">
+            <a href="general" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-COLOR:#E60073; font-family: 'Lucida Console', 'Courier New', monospace;font-weight:bold;font-size:40px">GENERAL <BR> ANALYSIS</a>
+          </div>
+
+                    <div class="col-sm-4 text-center">
+            <a href="state" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"  style="background-COLOR:#80CC23; font-family: 'Lucida Console', 'Courier New', monospace;font-weight:bold;font-size:40px">STATE WISE <BR> ANALYSIS</a>
+          </div>
+
+                    <div class="col-sm-4 text-center">
+            <a href="company" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="background-COLOR:#FFA400;; font-family: 'Lucida Console', 'Courier New', monospace;font-weight:bold;font-size:40px;width:100%" >TERMINAL WISE   <BR> ANALYSIS</a>
+          </div>
+        </div>     
+    </div>
+
+  </body>
+</html>
